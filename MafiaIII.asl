@@ -1,7 +1,7 @@
 state("Mafia3DefinitiveEdition")
 {
 	int loading       : 0x691E350;
-    int smallLoads    : 0691E008, 0x2C;
+    int smallLoads    : 0x691E008, 0x2C;
     string150 mission : 0x0691DD18, 0x2E0, 0x540;
 }
 
