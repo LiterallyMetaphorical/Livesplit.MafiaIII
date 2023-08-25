@@ -40,7 +40,6 @@ startup
         {"Get Michael Grecco", "Get Michael Grecco"},
         {"Moonshine", "Moonshine"},
         {"Protection", "Protection"},
-        {"Kill The Butcher", "Kill The Butcher"},
         {"Brave New World", "Brave New World"},
         {"The Righteously Fucked", "The Righteously Fucked"},
         {"I.R.A. Don't Ask", "I.R.A. Don't Ask"},
