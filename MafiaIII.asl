@@ -1,6 +1,7 @@
 state("Mafia3DefinitiveEdition")
 {
 	int loading       : 0x691E350;
+    int smallLoads    : 0691E008, 0x2C;
     string150 mission : 0x0691DD18, 0x2E0, 0x540;
 }
 
@@ -37,6 +38,14 @@ startup
         {"\"Only Way's Forward\"", "Only Way's Forward"},
         {"Union Extortion", "Union Extortion"},
         {"Get Michael Grecco", "Get Michael Grecco"},
+        {"Moonshine", "Moonshine"},
+        {"Protection", "Protection"},
+        {"Kill The Butcher", "Kill The Butcher"},
+        {"Brave New World", "Brave New World"},
+        {"The Righteously Fucked", "The Righteously Fucked"},
+        {"I.R.A. Don't Ask", "I.R.A. Don't Ask"},
+        {"Look in the Mirror", "Look in the Mirror"},
+        {"We Clear?", "We Clear?"},
         {"\"An Emotional Attachment\"", "An Emotional Attachment"},
         {"\"Auto Theft\"", "Auto Theft"},
         {"Kill Frank Pagani: Setup", "Kill Frank Pagani: Setup"},
@@ -93,12 +102,12 @@ startup
 update
 { 
     //print(current.loading.ToString());
-    //print(current.mission.ToString());
+    print(current.mission.ToString());
 }
 
 isLoading
 {
-	return current.loading == 1 || current.loading == 2;
+	return current.loading == 1 || current.loading == 2 || current.smallLoads == 1;
 }
 
 start
