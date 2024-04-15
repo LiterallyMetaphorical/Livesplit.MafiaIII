@@ -66,7 +66,7 @@ startup
         {"Kill The Judge", "Kill the Judge"},
         {"Kill 'Uncle' Lou Marcano", "Kill 'Uncle' Lou Marcano"},
         {"Rescue Alvarez", "Rescue Alvarez"},
-        {"\My Name's Lincoln Clay..."\"", "My Name's Lincoln Clay..."},
+        {"\"My Name's Lincoln Clay...\"", "My Name's Lincoln Clay..."},
         {"Kill Tommy Marcano", "Kill Tommy Marcano"},
         {"Kill Sal Marcano", "Kill Sal Marcano"},
         {"\"Before They Bury You\"", "Before They Bury You"},
